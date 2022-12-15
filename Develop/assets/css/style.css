@@ -1,22 +1,23 @@
+/* Default styling */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Determines background color of page */
 body {
     background-color: #d9dcd6;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
+/* Sets font size of paragraph elements */
 p {
     font-size: 16px;
 }
 
+/* /// Header /// */
+
+/* Styling of header block */
 #header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +25,7 @@ p {
     color: #ffffff;
 }
 
+/* Logo */
 #header h1 {
     display: inline-block;
     font-size: 48px;
@@ -33,6 +35,7 @@ p {
     color: #d9dcd6;
 }
 
+/* Styling of quick links */
 #header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,6 +49,13 @@ p {
     margin-left: 25px;
 }
 
+/* Changes link styling to match text on page */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Sets and styles background cover image */
 #background-image {
     height: 800px;
     width: 100%;
@@ -55,12 +65,16 @@ p {
     background-position: center;
 }
 
+/* /// Business Services Section /// */
+
+/* Position on page */
 #business-services-section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Determines image position */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -71,6 +85,7 @@ p {
     margin-left: 25px;
 }
 
+/* Styling of main content */
 .business-services-content {
     margin-bottom: 20px;
     padding: 50px;
@@ -89,6 +104,8 @@ p {
     font-size: 36px;
 }
 
+/* /// Benefits Side-Bar /// */
+
 #benefits-section {
     margin-right: 20px;
     padding: 20px;
@@ -100,22 +117,26 @@ p {
     background-color: #2589bd;
 }
 
+/* Text color and position */
 .benefits-content {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefits-content h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* Icons */
 .benefits-content img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Benefit headers */
+.benefits-content h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Styling of Footer */
 #footer {
     padding: 30px;
     clear: both;
