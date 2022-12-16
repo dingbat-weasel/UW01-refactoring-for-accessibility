@@ -6,7 +6,7 @@ This project was designed as an exercise in refactoring code to meet accessibili
 
 ## Preview
 
-![Screenshot of the Horiseon home page](./Develop/assets/images/horiseon-webpage-screenshot.JPG)
+![Screenshot of the Horiseon home page](./assets/images/horiseon-webpage-screenshot.JPG)
     
 
 ## Credits
